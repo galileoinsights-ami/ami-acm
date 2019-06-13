@@ -2,4 +2,3 @@
 .terraform
 setup-*.sh
 reference.rf
-destroy.sh

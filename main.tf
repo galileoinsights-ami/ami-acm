@@ -41,4 +41,7 @@ module "acm" {
   ]
 
   wait_for_validation = false
+  tags = {
+    "Name"="v1-${var.primary_domain}"
+  }
 }
