@@ -3,6 +3,11 @@ variable "default_aws_tags" {
   default = {}
 }
 
+variable "aws_resource_region" {
+  description = "Region to use for creating the AWS resources"
+}
+
+
 variable "backend_s3_bucket_name" {
   description = "S3 bucket which contains remote state"
 }

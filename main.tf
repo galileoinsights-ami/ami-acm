@@ -21,6 +21,8 @@ provider "aws" {
   # not using the lates version becauce there is a bug with the latest
   # version. See https://github.com/terraform-providers/terraform-provider-aws/issues/7918
   version = "v1.60.0"
+
+  region  = "${var.aws_resource_region}"
 }
 
 

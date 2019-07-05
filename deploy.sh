@@ -12,4 +12,4 @@ terraform init \
 	-backend-config="secret_key="$AWS_SECRET_ACCESS_KEY
 
 
-terraform apply -var-file=env/$ENV-$AWS_DEFAULT_REGION.tfvars
+terraform apply -var-file=env/$ENV-$aws_resource_region.tfvars
